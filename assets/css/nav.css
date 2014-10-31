@@ -1,0 +1,88 @@
+.nav-alt ul,
+.nav-alt li								{ margin:0; padding:0; }
+
+/* Level 1 */
+.nav-alt ul								{ position:relative; }
+.nav-alt ul li							{ float:left; white-space:nowrap; list-style:none; zoom:1; }
+.nav-alt ul a:hover						{  }
+.nav-alt ul a:active					{  }
+.nav-alt ul li a						{ display:block; }
+.nav-alt ul li:last-child				{ /*border-bottom:none;*/ } /* Doesn't work in IE */
+.nav-alt ul li.hover,
+.nav-alt ul li:hover					{ position:relative; }
+.nav-alt ul li.hover a					{  }
+
+/* Level 2 */
+.nav-alt ul ul							{ width:auto; visibility:hidden; position:absolute; top:100%; left:0; }
+.nav-alt ul ul li						{ float:none; /*border-bottom:1px solid #CCC;*/ }
+.nav-alt ul ul li a						{ border-right:none; width:100%; display:inline-block; } /* IE 6 & 7 Needs Inline Block */
+
+/* Level 3 */
+.nav-alt ul ul ul						{ top:5px; left:100%; margin-left:0!important;}
+/*.nav-alt ul li:hover > ul				{ visibility:visible; }*/
+.nav-alt ul ul ul:first-child			{ margin-top:5px;}
+.nav-alt ul ul ul li:first-child		{ }
+
+
+
+
+/* Level 1 (vertical) */
+.nav-alt.vert							{ width:200px; } /* REMOVE */
+.nav-alt.vert ul li						{ float:none; /*border-bottom:1px dotted #999;*/ }
+
+/* Level 2 (vertical) */
+.nav-alt.vert ul ul						{ top:0; left:100px; }
+.nav-alt.vert ul ul li:first-child		{ margin-top:2px; }
+
+/* Level 3 (vertical) */
+.nav-alt.vert ul ul ul					{ top:0; left:100%!important; }
+
+
+
+
+
+/* ANIMATIONS */
+.nav-alt ul li li:hover a {
+	-webkit-transition: all 250ms linear; /* Safari, Chrome and Opera > 12.1 */
+       -moz-transition: all 250ms linear; /* Firefox < 16 */
+        -ms-transition: all 250ms linear; /* Internet Explorer */
+         -o-transition: all 250ms linear; /* Opera < 12.1 */
+            transition: all 250ms linear;
+}
+
+.nav-alt ul li:hover ul {
+	-webkit-animation: fadein 500ms; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 500ms; /* Firefox < 16 */
+        -ms-animation: fadein 500ms; /* Internet Explorer */
+         -o-animation: fadein 500ms; /* Opera < 12.1 */
+            animation: fadein 500ms;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
