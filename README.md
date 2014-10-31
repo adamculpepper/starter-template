@@ -1,7 +1,6 @@
 # starter-template
 =============
-
-## To-dos
+#### To-dos
 * add apple icons
 * add favicon referance to the template
 * add in jquery migrate
