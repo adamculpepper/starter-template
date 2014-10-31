@@ -10,3 +10,5 @@
 * add robots.txt
 * add humans.txt
 * add .htaccess?
+* SASS/LESS workflow?
+* figure out why empty folders aren't being put into the repo (/css/font and /css/img)
