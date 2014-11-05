@@ -2,7 +2,6 @@
 =============
 ##### To-dos
 * add apple icons
-* add favicon referance to the template
 * add in jquery migrate
 * add in Modernizr full build with a comment to use custom build in prod
 * create an outside folder for asset creation templates like the favicon etc.
