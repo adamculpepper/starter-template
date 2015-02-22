@@ -23,8 +23,6 @@ html, body {height:100%;}
 body, form, input, h1, h2, h3, h4, h5, h6 {margin:0; padding:0;}
 body {color:#000; font-size:16px; font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;}
 a img {border:0;}
-a:not(.btn) {text-decoration:none; color:#555;}
-a:not(.btn):hover {text-decoration:none; color:#777;}
 table {border-collapse:collapse; border-spacing:0;}
 table td {text-align:center;}
 td, th {padding:0;}
@@ -56,6 +54,8 @@ img.padding-bottom {padding-bottom:10px;}
 
 
 /* Bootstrap Resets */
+a:not(.btn) {text-decoration:none; color:#555;}
+a:not(.btn):hover {text-decoration:none; color:#777;}
 .btn {margin-top:20px;}
 .btn i {color:#fec52e; margin-left:10px;}
 .btn-primary {background:#3f98cc; color:#FFF;}
