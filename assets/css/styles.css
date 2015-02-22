@@ -71,7 +71,7 @@ a:not(.btn):hover {text-decoration:none; color:#777;}
 .navbar {margin:25px 0 0 0; border-radius:0;}
 .navbar .navbar-brand {width:170px; height:109px; margin-right:50px; background:#DDD url(http://placehold.it/170x110/DDD/bbb.gif&text=logo); text-indent:-9999px;}
 
-.navbar ul.nav {z-index:9999;}
+.navbar ul.nav {float:right; z-index:9999;}
 .navbar ul.nav li a {padding:10px 18px; color:#58585a; font-weight:bold; border-left:1px solid #e7e8e9; text-transform:uppercase;}
 .navbar ul.nav li a:hover {color:#0876aa; background:none;}
 .navbar ul.nav li:first-child a {border:0;}
