@@ -89,6 +89,10 @@ a:not(.btn):hover {text-decoration:none; color:#777;}
 .navbar ul.nav .open > a:hover,
 .navbar ul.nav .open > a:focus {background-color:transparent!important;}
 
+/* Navigation Has Children Styles */
+.navbar ul.nav li.has-childred a {padding-right:25px;}
+.navbar ul.nav li.has-childred:after {content:"\f078"; font-size:8px; font-family:FontAwesome; position:absolute; right:10px; top:0; line-height:40px;}
+.navbar ul.nav ul li.has-childred:after {line-height:33px; right:5px;}
 
 /* Navigation Center Styles */
 .navbar.centered ul.nav li a {text-align:center;}
