@@ -82,14 +82,9 @@ a:not(.btn):hover {text-decoration:none; color:#777;}
 .navbar ul.nav li.hover ul {padding:0; background-color:#e7e8e9; background-color:rgba(231, 232, 233, 0.90); border:0; box-shadow:none; border-radius:0;}
 .navbar ul.nav li.hover ul > li > a {color:#0776aa; padding:8px 20px; text-transform:none; font-weight:normal; border-left:0; border-top:1px solid #c7c8ca;}
 .navbar ul.nav li.hover ul > li:first-child > a {border-top:0;}
-.navbar ul.nav li.hover ul > li:first-child > a:hover:before {content:"."; display:block; width:100%; height:9px; position:absolute; top:-9px; left:0; margin:0 auto; background:url(../img/bg-nav-sub-triangle.png) no-repeat center center; text-indent:-9999px;}
+.navbar ul.nav li.hover ul > li:first-child > a:hover:before {content:"."; display:block; width:100%; height:9px; position:absolute; top:-9px; left:0; margin:0 auto; text-indent:-9999px;}
 .navbar ul.nav li.hover ul > li > a:hover,
 .navbar ul.nav li.hover ul > li > a:focus {color:#FFF; background:#0776aa;}
-
-/* FINISH CENTER STYLES */
-.navbar.centered ul.nav li a {text-align:center;}
-
-
 .navbar ul.nav .open > a,
 .navbar ul.nav .open > a:hover,
 .navbar ul.nav .open > a:focus {background-color:transparent!important;}
