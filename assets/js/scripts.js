@@ -89,8 +89,13 @@ $(document).ready(function() {
 		// do magic
 	}
 
-	//Set Slider dimentions to avoid flicker
+	$(".nav li").each(function( index ) {
+		if ($(this).find("ul")) {
+			$(this).find("ul").parent().addClass("has-childred");
+		}
+	});
 
+	//Set Slider dimentions to avoid flicker
 	function setSliderDimentions() {
 		var slider = $(".cycle-slideshow");
 		var sliderHeight = slider.find("img").eq(0).height();
