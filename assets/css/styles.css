@@ -149,22 +149,18 @@ a:not(.btn):hover {text-decoration:none; color:#777;}
 .header .img img {max-width:100%; height:auto;}
 
 
-
-
 /* Page Specific Styles */
 
 
 /* Large desktop - lg */
 @media screen and (min-width: 1200px) {
 	body {/*background:red;*/}
-
 }
 
 
 /* Medium Desktop - md */
 @media screen and (max-width: 1200px) {
 	body {background:#b9e2ba;}
-
 }
 
 
@@ -178,7 +174,6 @@ a:not(.btn):hover {text-decoration:none; color:#777;}
 	.navbar ul.nav li a {font-size:12px;}
 	.navbar ul.nav {margin-top:57px;}
 	.navbar .dropdown.open ul.dropdown-menu {margin-top:16px;}
-
 }
 
 
@@ -186,35 +181,29 @@ a:not(.btn):hover {text-decoration:none; color:#777;}
 @media screen and (max-width: 767px) {
 	body {background:#e7e79f;} /*yellow*/
 
-
 	.navbar .navbar-brand {margin-left:20px; margin-bottom:20px;}
 	.navbar .navbar-toggle {margin-top:40px;}	
 	
 	.navbar ul.nav {width:100%; margin-top:0; background:#f7f7f7;}
 	.navbar ul.nav li {float:none; padding-bottom:0;}
 
-
-
 	.navbar .nav li > ul {display:none;}
-	.navbar .nav li.hover > ul {display:block;}
-
 	.navbar .nav li.hover ul {position:relative; left:0; top:0; float:none;}
+	.navbar .nav li.hover ul > li > a {}
+	.navbar .nav li.hover > ul {display:block;}
 
 	.navbar ul.nav li a {border:0;}
 	.navbar ul.nav li ul {float:none; border-left:1px solid #ccc!important;}
 	.navbar ul.nav li ul ul {margin-left:20px!important;}
 	.navbar ul.nav li ul ul ul {}
-	.navbar ul.nav li ul  ul ul ul {}
-	.navbar ul.nav li ul  ul ul ul ul {}
-
-	.navbar ul.nav li.hover ul > li > a {}
+	.navbar ul.nav li ul ul ul ul {}
+	.navbar ul.nav li ul ul ul ul ul {}
 }
 
 
 /* iphone5 landscape */
 @media screen and (max-width: 480px) {
 	body {background:#e5c48f;} /*orange*/
-
 }
 
 
