@@ -115,14 +115,14 @@ a:not(.btn):hover {text-decoration:none; color:#777;}
 
 /* Banner */
 .header:after {content:"."; display:block; width:100%; height:12px; text-indent:-9999px;
-	background: #006298;
-	background: -moz-linear-gradient(left,  #006298 0%, #4089b2 50%, #006298 100%);
-	background: -webkit-gradient(linear, left top, right top, color-stop(0%,#006298), color-stop(50%,#4089b2), color-stop(100%,#006298));
-	background: -webkit-linear-gradient(left,  #006298 0%,#4089b2 50%,#006298 100%);
-	background: -o-linear-gradient(left,  #006298 0%,#4089b2 50%,#006298 100%);
-	background: -ms-linear-gradient(left,  #006298 0%,#4089b2 50%,#006298 100%);
-	background: linear-gradient(to right,  #006298 0%,#4089b2 50%,#006298 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#006298', endColorstr='#006298',GradientType=1 );
+	background:#006298;
+	background:-moz-linear-gradient(left,  #006298 0%, #4089b2 50%, #006298 100%);
+	background:-webkit-gradient(linear, left top, right top, color-stop(0%,#006298), color-stop(50%,#4089b2), color-stop(100%,#006298));
+	background:-webkit-linear-gradient(left,  #006298 0%,#4089b2 50%,#006298 100%);
+	background:-o-linear-gradient(left,  #006298 0%,#4089b2 50%,#006298 100%);
+	background:-ms-linear-gradient(left,  #006298 0%,#4089b2 50%,#006298 100%);
+	background:linear-gradient(to right,  #006298 0%,#4089b2 50%,#006298 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#006298', endColorstr='#006298',GradientType=1 );
 }
 
 .banner .slider {overflow:hidden;} /* max-height set on the breakpoints */
@@ -155,19 +155,19 @@ a:not(.btn):hover {text-decoration:none; color:#777;}
 
 
 /* Large desktop - lg */
-@media screen and (min-width: 1200px) {
+@media screen and (min-width:1200px) {
 	body {/*background:red;*/}
 }
 
 
 /* Medium Desktop - md */
-@media screen and (max-width: 1200px) {
+@media screen and (max-width:1200px) {
 	body {background:#b9e2ba;}
 }
 
 
 /* Small Desktop to Landscape tablet - sm */
-@media screen and (max-width: 992px) {
+@media screen and (max-width:992px) {
 	body {background:lightblue;}
 	
 	.navbar .navbar-brand {margin-top:15px;}
@@ -180,7 +180,7 @@ a:not(.btn):hover {text-decoration:none; color:#777;}
 
 
 /* Landscape phone to portrait tablet - xs */
-@media screen and (max-width: 767px) {
+@media screen and (max-width:767px) {
 	body {background:#e7e79f;} /*yellow*/
 
 	.navbar .navbar-brand {margin-left:20px; margin-bottom:20px;}
@@ -204,12 +204,12 @@ a:not(.btn):hover {text-decoration:none; color:#777;}
 
 
 /* iphone5 landscape */
-@media screen and (max-width: 480px) {
+@media screen and (max-width:480px) {
 	body {background:#e5c48f;} /*orange*/
 }
 
 
 /* iphone5 portrait */
-@media screen and (max-width: 320px) {
+@media screen and (max-width:320px) {
 
 }
