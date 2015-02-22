@@ -91,8 +91,6 @@ img.padding-bottom {padding-bottom:10px;}
 .navbar ul.nav .open > a:hover,
 .navbar ul.nav .open > a:focus {background-color:transparent!important;}
 
-.navbar .dropdown.open ul.dropdown-menu {margin-top:35px; border:0; box-shadow:none;}
-
 .navbar .navbar-toggle {background:#EEE;}
 .navbar .navbar-toggle .icon-bar {background:#999;}
 
