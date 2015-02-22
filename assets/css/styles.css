@@ -125,7 +125,7 @@ a:not(.btn):hover {text-decoration:none; color:#777;}
 
 .slider {overflow:hidden;} /* max-height set on the breakpoints */
 .slider:before,
-.slider:after{cont tent:"."; display:block; position:absolute; z-index:999; width:100%; text-indent:-9999px;}
+.slider:after {content:"."; display:block; position:absolute; z-index:999; width:100%; text-indent:-9999px;}
 .slider:before {top:-22px; box-shadow:0 3px 8px 0 rgba(0, 0, 0, 0.2);}
 .slider:after {bottom:-22px; box-shadow:0 -3px 8px 0 rgba(0, 0, 0, 0.3);}
 
