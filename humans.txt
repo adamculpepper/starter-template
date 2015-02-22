@@ -1,0 +1,14 @@
+/* TEAM */
+	Developer: Adam Culpepper
+	Contact: me [at] adamculpepper.net
+	Twitter: @adamculpepper
+	From: Baton Rouge, Louisiana, USA
+
+/* THANKS */
+
+/* SITE */
+	Language: English
+	Doctype: HTML5
+	IDE: Sublime Text
+	Standards: HTML5, CSS3, JavaScript
+	Components: jQuery, Bootstrap, Modernizr, Font Awesome, Cycle2 (slider)
